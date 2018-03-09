@@ -1,0 +1,16 @@
+{
+  "name": "novo",
+  "version": "1.0.0",
+  "babel": {
+    "presets": ["es2015"]
+  },
+  "main": "gameBabel.js",
+  "scripts": {
+    "test": "echo \"error: no test especified\" && exit 1",
+    "babel": "babel gameBabel.js --watch --out-file game.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
